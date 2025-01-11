@@ -21,6 +21,7 @@ namespace IdentityProject.Pages
         {
                //test
                //test2
+               //test4
             //string password =  UserHelper.GetUserImageFolderPath(User.Identity.Name, "Gallery Page", await UserHelperHash.GetPasswordHashAsync(User.Identity.Name,_userManager));
             var email = User.Identity.Name;
 

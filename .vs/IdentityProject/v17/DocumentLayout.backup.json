@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Pages\\GalleryPage.cshtml.cs",
               "ToolTip": "C:\\GitHub\\test\\Pages\\GalleryPage.cshtml.cs",
               "RelativeToolTip": "Pages\\GalleryPage.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T09:32:01.473Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "RelativeToolTip": "Pages\\UserHelper.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAWwIAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T15:28:00.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T15:28:00.223Z"
             },
             {
               "$type": "Document",
