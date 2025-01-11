@@ -1,0 +1,39 @@
+﻿
+
+
+@page
+@model UserListModel
+@{
+    ViewData["Title"] = "User List";
+}
+
+@using Microsoft.AspNetCore.Identity
+@using IdentityProject.Areas.Identity.Data
+
+@inject UserManager<IdentityProjectUser> UserManager;
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>@string.Join(", ", await  @UserManager.GetRolesAsync(user))</td>
+                <td>
+                    <a asp-page="EditUserRoles" asp-route-id="@user.Id" class="btn btn-primary">Edit Roles</a>
+                </td>
+            </tr>
+        }
+        @* Note: You may need to use UserManager directly here if the role retrieval isn't asynchronous *@
+    </tbody>
+</table>
+

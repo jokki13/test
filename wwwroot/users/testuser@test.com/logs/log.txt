@@ -1,0 +1,6 @@
+Korisnik: testuser@test.com Action: Camera Page Time: 31.7.2024. 13:19:46
+Korisnik: testuser@test.com Action: Maps Page Time: 31.7.2024. 13:20:11
+Korisnik: testuser@test.com Action: Camera Page Time: 31.7.2024. 13:20:16
+Korisnik: testuser@test.com Action: Maps Page Time: 31.7.2024. 13:20:18
+Korisnik: testuser@test.com Action: Maps Page Time: 31.7.2024. 13:20:32
+Korisnik: testuser@test.com Action: Maps Page Time: 31.7.2024. 13:20:35

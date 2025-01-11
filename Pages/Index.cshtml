@@ -1,0 +1,46 @@
+﻿
+
+@page
+@using IdentityProject.Areas.Identity.Data
+@using Microsoft.AspNetCore.Identity;
+@using System.Security.Claims
+
+@inject SignInManager<IdentityProjectUser> SignInManager
+@inject UserManager<IdentityProjectUser> UserManager
+
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+@if (true)
+{
+    var roles = new[] { "Super Admin", "Admin", "Operater", "Super User", "User", "Guest" };
+    int rolelevel = -1;
+
+    @for (int i = 0; i < roles.Length; i++)
+    {
+        @if (User.IsInRole(roles[i]))
+        {
+            rolelevel = i;
+        }
+    }
+    
+    @if (rolelevel!=-1)
+    {
+        @if (2 > rolelevel)
+        {
+            <h1>Hi Admin @rolelevel </h1>
+        }
+        else if (5 > rolelevel)
+        {
+            <h1>Hi User @rolelevel</h1>
+        }
+    }
+}

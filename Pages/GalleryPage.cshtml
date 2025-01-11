@@ -1,0 +1,62 @@
+﻿@page
+@model IdentityProject.Pages.GalleryPageModel;
+@{
+    ViewData["Title"] = "Image Gallery";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+
+<button id="printButton" onclick="printImage()">Print Gallery</button>
+
+<div class="gallery">
+    @if (Model.ImagePaths != null)
+    {
+        @foreach (var imagePath in Model.ImagePaths)
+        {
+            <div class="gallery-item">
+                <img alt="Gallery Image" class="gallery-image" onclick="showLargeImage(this.src)" src="~/@imagePath" />
+            </div>
+            <button id="printButton" style="display:none;">Print</button>
+        }
+    }
+</div>
+
+<img id="selectedImage" src="" style="display: none; position: fixed; left: 0; height: 50%; z-index: 10;" />
+
+
+<style>
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .gallery-item {
+        flex: 1 1 200px;
+        max-width: 200px;
+    }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+</style>
+
+<script>
+
+
+
+
+    let imageUrl_print;
+    function showLargeImage(imageUrl) {
+        document.getElementById("selectedImage").src = imageUrl;
+        document.getElementById("selectedImage").style.display = "block";
+        imageUrl_print = imageUrl;
+    }
+    function printImage() {
+        var win = window.open(imageUrl_print, '_blank');
+        win.focus();
+        setTimeout(function () { win.print(); }, 1); // Add a slight delay for image loading
+    }
+</script>

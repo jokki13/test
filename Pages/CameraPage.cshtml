@@ -1,0 +1,207 @@
+﻿@page
+@model IdentityProject.Pages.CameraPageModel;
+
+@{
+    ViewData["Title"] = "Camera Access";
+}
+
+<div class="form-group">
+    <label for="cameraSelect">Select Camera</label>
+    <select id="cameraSelect" class="form-control">
+        @foreach (var camera in Model.Cameras)
+        {
+            <option value="@camera.DeviceId">@camera.Name</option>
+        }
+    </select>
+</div>
+
+<h2>Camera Access for </h2>
+<video id="camera" autoplay></video>
+<canvas id="snapshot" style="display:none;"></canvas>
+<button id="capture">Capture Image</button>
+<form id="imageForm" method="post">
+    <input type="hidden" id="imageData" name="imageData" />
+    <button id="save" style="display:none;">Save submit</button>
+    <button id="cancel" style="display:none;">Cancel</button>
+</form>
+
+<script>
+    function checkCameraPermission() {
+        navigator.permissions.query({ name: 'camera' }).then(function (permissionStatus) {
+            if (permissionStatus.state === 'granted') {
+                // Permission already granted
+                console.log('Camera access already granted');
+                startCamera();
+            } else if (permissionStatus.state === 'prompt') {
+                // Permission not yet decided, request it
+                console.log('Camera access not yet granted, requesting...');
+                requestCameraAccess();
+            } else {
+                // Permission denied
+                console.log('Camera access denied');
+                // Optionally, notify the user to enable the camera manually
+            }
+
+            // Listen for changes in the permission state
+            permissionStatus.onchange = function () {
+                console.log('Permission state changed to', permissionStatus.state);
+                if (permissionStatus.state === 'granted') {
+                    startCamera();
+                }
+            };
+        });
+    }
+
+    function requestCameraAccess() {
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+                console.log('Camera access granted');
+                startCamera(stream);
+            })
+            .catch(function (error) {
+                console.error('Camera access denied or error:', error);
+            });
+    }
+    checkCameraPermission();
+
+
+    let videoStream;
+    let currentDeviceId;
+
+    async function getCameraDevices() {
+        try {
+            const devices = await navigator.mediaDevices.enumerateDevices();
+            const videoDevices = devices.filter(device => device.kind === 'videoinput');
+
+            const cameraSelect = document.getElementById('cameraSelect');
+            cameraSelect.innerHTML = ''; // Clear existing options
+
+            videoDevices.forEach(device => {
+                const option = document.createElement('option');
+                option.value = device.deviceId;
+                option.textContent = device.label || `Camera ${cameraSelect.options.length + 1}`;
+                cameraSelect.appendChild(option);
+            });
+
+            if (videoDevices.length > 0) {
+                cameraSelect.disabled = false;
+                currentDeviceId = videoDevices[0].deviceId; // Select the first camera by default
+                startVideoStream(currentDeviceId);
+            } else {
+                cameraSelect.disabled = true;
+            }
+        } catch (err) {
+            console.log("An error occurred while listing cameras: " + err);
+        }
+    }
+    // Start the video stream
+    function startVideoStream(deviceId) {
+        if (!deviceId) {
+            console.error("Device ID is required to start the video stream.");
+            return;
+        }
+        navigator.mediaDevices.getUserMedia({ video: { deviceId: { exact: deviceId } } })
+            .then(function (stream) {
+                const video = document.getElementById('camera');
+                video.srcObject = stream;
+                video.play();
+                videoStream = stream; // Save the stream to a variable
+            })
+            .catch(function (err) {
+                console.log("An error occurred: " + err);
+            });
+    }
+
+    // Stop the video stream
+    function stopVideo() {
+        if (videoStream) {
+            let tracks = videoStream.getTracks();
+
+            tracks.forEach(function (track) {
+                track.stop();
+            });
+
+            const video = document.getElementById('camera');
+            video.srcObject = null; // Remove the stream from the video element
+        }
+    }
+
+    // Capture the image from the video stream
+    document.getElementById('capture').addEventListener('click', function () {
+        const video = document.getElementById('camera');
+        const canvas = document.getElementById('snapshot');
+        const context = canvas.getContext('2d');
+
+        // Set canvas dimensions to match video dimensions
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+
+        // Draw the video frame on the canvas
+        context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        // Get dataURL of the captured image
+        const dataURL = canvas.toDataURL('image/png');
+
+        // Set the dataURL in the hidden input field
+        document.getElementById('imageData').value = dataURL;
+
+        // Display the captured image
+        canvas.style.display = 'block';
+        video.style.display = 'none';
+        document.getElementById('capture').style.display = 'none';
+        document.getElementById('cancel').style.display = 'block';
+
+        document.getElementById('save').style.display = 'block';
+        // Stop the video stream
+        stopVideo();
+    });
+
+    // Restart the video stream when cancel is clicked
+    document.getElementById('cancel').addEventListener('click', function () {
+        const video = document.getElementById('camera');
+        const canvas = document.getElementById('snapshot');
+
+        // Hide the canvas and show the video
+        canvas.style.display = 'none';
+        video.style.display = 'block';
+        document.getElementById('capture').style.display = 'block';
+        document.getElementById('cancel').style.display = 'none';
+
+        // Restart the video stream
+        startVideoStream();
+        document.getElementById('save').style.display = 'none';
+    });
+
+    // Handle form submission
+    document.getElementById('imageForm').addEventListener('save', function (e) {
+        e.preventDefault();
+
+        const formData = new FormData(this);
+
+        fetch('/CameraPage', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                // Restart the camera after submission
+                document.getElementById('cancel').click();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    });
+
+
+    // Handle camera selection change
+    document.getElementById('cameraSelect').addEventListener('change', function () {
+        currentDeviceId = this.value;
+        startVideoStream(currentDeviceId);
+    });
+    // Initialize the video stream when the page loads
+    document.addEventListener('DOMContentLoaded', function () {
+        //startVideoStream();
+        getCameraDevices();
+    });
+</script>
