@@ -1,57 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\",
+  "WorkspaceRootPath": "C:\\GitHub\\test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\userlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\userlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\gallerypage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\gallerypage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\gallerypage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\userhelperhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\userlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\userlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\userhelperhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\userhelperhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\gallerypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\gallerypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\gallerypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\camerapage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\camerapage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\camerapage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\edituserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\edituserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\edituserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\pages\\edituserroles.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\pages\\edituserroles.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:pages\\edituserroles.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\users\\nikola.cvetojevic\\source\\repos\\identityproject_sa_adminom\\identityproject\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|c:\\github\\test\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F643248-9303-45BE-9CA5-FE997B743705}|IdentityProject.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,30 +62,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GalleryPage.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\GalleryPage.cshtml.cs",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\GalleryPage.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\GalleryPage.cshtml.cs",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\GalleryPage.cshtml.cs",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\GalleryPage.cshtml.cs",
               "RelativeToolTip": "Pages\\GalleryPage.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T09:32:01.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserHelper.cs",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\UserHelper.cs",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\UserHelper.cs",
               "RelativeDocumentMoniker": "Pages\\UserHelper.cs",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\UserHelper.cs",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\UserHelper.cs",
               "RelativeToolTip": "Pages\\UserHelper.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAWwIAAAAAcAAAA",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAWwIAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T15:28:00.223Z",
               "EditorCaption": ""
@@ -94,100 +94,93 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "CameraPage.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\CameraPage.cshtml.cs",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\CameraPage.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\CameraPage.cshtml.cs",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\CameraPage.cshtml.cs",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\CameraPage.cshtml.cs",
               "RelativeToolTip": "Pages\\CameraPage.cshtml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T15:21:33.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T15:21:33.597Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\test\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\GitHub\\test\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwCwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T10:55:12.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T10:55:12.239Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\Shared\\_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T11:34:08.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T11:34:08.536Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\Index.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T12:01:56.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T12:01:56.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserList.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\UserList.cshtml.cs",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\UserList.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\UserList.cshtml.cs",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\UserList.cshtml.cs",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\UserList.cshtml.cs",
               "RelativeToolTip": "Pages\\UserList.cshtml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T11:36:20.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T11:36:20.988Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "UserHelperHash.cs",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\UserHelperHash.cs",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\UserHelperHash.cs",
               "RelativeDocumentMoniker": "Pages\\UserHelperHash.cs",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\UserHelperHash.cs",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\UserHelperHash.cs",
               "RelativeToolTip": "Pages\\UserHelperHash.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:11:27.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T09:11:27.642Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "GalleryPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\GalleryPage.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\GalleryPage.cshtml",
               "RelativeDocumentMoniker": "Pages\\GalleryPage.cshtml",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\GalleryPage.cshtml",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\GalleryPage.cshtml",
               "RelativeToolTip": "Pages\\GalleryPage.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T14:31:49.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T14:31:49.67Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -197,22 +190,21 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "EditUserRoles.cshtml",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\EditUserRoles.cshtml",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\EditUserRoles.cshtml",
               "RelativeDocumentMoniker": "Pages\\EditUserRoles.cshtml",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\EditUserRoles.cshtml",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\EditUserRoles.cshtml",
               "RelativeToolTip": "Pages\\EditUserRoles.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T11:45:42.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T11:45:42.231Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "EditUserRoles.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\EditUserRoles.cshtml.cs",
+              "DocumentMoniker": "C:\\GitHub\\test\\Pages\\EditUserRoles.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\EditUserRoles.cshtml.cs",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Pages\\EditUserRoles.cshtml.cs",
+              "ToolTip": "C:\\GitHub\\test\\Pages\\EditUserRoles.cshtml.cs",
               "RelativeToolTip": "Pages\\EditUserRoles.cshtml.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwBkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -222,9 +214,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "C:\\GitHub\\test\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\nikola.cvetojevic\\source\\repos\\IdentityProject_sa_adminom\\IdentityProject\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\GitHub\\test\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AQIAAE0AAAAAAAAAAAA5wIcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

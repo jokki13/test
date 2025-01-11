@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "29jUs+Ern8oATeOD3mlM2I91BubVyTVARSwBYp4CffWz064P2hAT8y+i8e2Xzl1Gowcg8ZzCHN1J6cjGMPQ6ow==",
+  "dgSpecHash": "U8m2b1cth8E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jovan\\Desktop\\IdentityProject_sa_adminom\\IdentityProject\\IdentityProject.csproj",
+  "projectFilePath": "C:\\GitHub\\test\\IdentityProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jovan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Jovan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -19,7 +19,7 @@ namespace IdentityProject.Pages
 
         public async void OnGet()
         {
-
+               //test
             //string password =  UserHelper.GetUserImageFolderPath(User.Identity.Name, "Gallery Page", await UserHelperHash.GetPasswordHashAsync(User.Identity.Name,_userManager));
             var email = User.Identity.Name;
 
